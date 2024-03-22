@@ -1,3 +1,5 @@
+// import 'package:carousel_slider/carousel_slider.dart';
+// import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:newapp/core/utils/image_constant.dart';
 import 'package:newapp/core/utils/size_utils.dart';
