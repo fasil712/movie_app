@@ -26,7 +26,6 @@ class HomePage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   _buildHomeCover(context),
-                  // _buildHomeCoverOrg(context),
                   SizedBox(height: 49.v),
                   Align(
                     alignment: Alignment.topLeft,
