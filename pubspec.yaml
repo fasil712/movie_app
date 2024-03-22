@@ -1,0 +1,48 @@
+name: newapp
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.1 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons:
+  cached_network_image:
+  flutter_svg:
+  intl: ^0.19.0
+  dots_indicator: ^3.0.0
+  smooth_page_indicator: ^1.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/RobotoRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoRomanLight.ttf
+          weight: 300
+        - asset: assets/fonts/RobotoRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoRomanBlack.ttf
+          weight: 900
+    - family: Satisfy
+      fonts:
+        - asset: assets/fonts/SatisfyRegular.ttf
+          weight: 400
+    - family: Salsa
+      fonts:
+        - asset: assets/fonts/SalsaRegular.ttf
+          weight: 400
+    - family: Sacramento
+      fonts:
+        - asset: assets/fonts/SacramentoRegular.ttf
+          weight: 400
